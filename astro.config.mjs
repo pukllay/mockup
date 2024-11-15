@@ -2,6 +2,6 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://pukllay.github.io",
-  base: "mockup",
+  site: "https://pukllay.github.io/mockup/",
+  base: "/mockup",
 });
