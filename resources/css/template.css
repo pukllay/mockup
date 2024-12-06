@@ -1,46 +1,46 @@
 .cat-shirt.type-man.view-front #max-print-size { width: 160.03px; height: 213.38px; }
 .cat-shirt.type-woman.view-front #max-print-size { width: 175.40px; height: 233.87px; }
-.cat-shirt.type-man-long-sleeves.view-front #max-print-size { width: 160.94px; height: 214.58px; } 
+.cat-shirt.type-man-long-sleeves.view-front #max-print-size { width: 160.94px; height: 214.58px; }
 .cat-shirt.type-kid.view-front #max-print-size { width: 177.21px; height: 236.28px; }
 .cat-shirt.type-man-tank.view-front #max-print-size { width: 165.46px; height: 220.61px; }
 .cat-shirt.type-man-sleevesless.view-front #max-print-size { width: 156.42px; height: 208.56px; }
 .cat-shirt.type-man-v-neck.view-front #max-print-size { width: 145.57px; height: 194.09px; }
 .cat-polo.type-regular.view-front #max-print-size { width: 174.95px; height: 233.27px; }
 .cat-hoodies.type-nocord.view-front #max-print-size { width: 164.55px; height: 137.13px; }
-.cat-cap.type-classic.view-front #max-print-size { width: 153.11px; height: 114.83px; }
+.cat-cap.type-classic.view-front #max-print-size { width: 360px; height: 230px; }
 
 .cat-shirt.type-man.view-back #max-print-size { width: 167.26px; height: 223.02px; }
 .cat-shirt.type-woman.view-back #max-print-size { width: 169.07px; height: 225.43px; }
-.cat-shirt.type-man-long-sleeves.view-back #max-print-size { width: 168.17px; height: 224.23px; } 
+.cat-shirt.type-man-long-sleeves.view-back #max-print-size { width: 168.17px; height: 224.23px; }
 .cat-shirt.type-kid.view-back #max-print-size { width: 185.35px; height: 247.13px; }
 .cat-shirt.type-man-tank.view-back #max-print-size { width: 141.72px; height: 188.96px; }
 .cat-shirt.type-man-sleevesless.view-back #max-print-size { width: 162.74px; height: 217px; }
 .cat-shirt.type-man-v-neck.view-back #max-print-size { width: 153.93px; height: 205.24px; }
 .cat-polo.type-regular.view-back #max-print-size { width: 162.74px; height: 217px; }
 .cat-hoodies.type-nocord.view-back #max-print-size { width: 177.66px; height: 236.89px; }
-.cat-cap.type-classic.view-back #max-print-size { width: 77.35px; height: 58.21px; }
+.cat-cap.type-classic.view-back #max-print-size { width: 370px; height: 240px;}
 
 .cat-shirt.type-man.view-front #printable-area { width: 209px; height: 361.66px; left: 151.44px; top: 68.71px;}
 .cat-shirt.type-woman.view-front #printable-area { width: 217px; height: 364.37px; left: 138.78px; top: 86.79px;}
-.cat-shirt.type-man-long-sleeves.view-front #printable-area { width: 210.66px; height: 376.13px; left: 150.54px; top: 71.42px; } 
+.cat-shirt.type-man-long-sleeves.view-front #printable-area { width: 210.66px; height: 376.13px; left: 150.54px; top: 71.42px; }
 .cat-shirt.type-kid.view-front #printable-area { width: 217px; height: 340.86px; left: 150.54px; top: 97.65px; }
 .cat-shirt.type-man-tank.view-front #printable-area { width: 209.76px; height: 309.22px; left: 144.21px; top: 126.89px; }
 .cat-shirt.type-man-sleevesless.view-front #printable-area { width: 203.43px; height: 369.80px; left: 153.25px; top: 84.08px; }
 .cat-shirt.type-man-v-neck.view-front #printable-area { width: 194.39px; height: 314.64px; left: 153.70px; top: 110.30px; }
 .cat-polo.type-regular.view-front #printable-area { width: 215.18px; height: 361.66px; left: 140.59px; top: 85.89px; }
 .cat-hoodies.type-nocord.view-front #printable-area { width: 223.32px; height: 198.91px; left: 134.26px; top: 97.19px; }
-.cat-cap.type-classic.view-front #printable-area { width: 262.5px; height: 115px; left: 119px; top: 154.88px; }
+.cat-cap.type-classic.view-front #printable-area { width: 360px; height: 230px; left: 65px; top: 80px; }
 
 .cat-shirt.type-man.view-back #printable-area { width: 208.86px; height: 416.82px; left: 145.57px; top: 33.45px; }
 .cat-shirt.type-woman.view-back #printable-area { width: 214.28px; height: 430.38px; left: 151.44px; top: 38.87px; }
-.cat-shirt.type-man-long-sleeves.view-back #printable-area { width: 218.80px; height: 421.33px; left: 132.46px; top: 44.61px; } 
+.cat-shirt.type-man-long-sleeves.view-back #printable-area { width: 218.80px; height: 421.33px; left: 132.46px; top: 44.61px; }
 .cat-shirt.type-kid.view-back #printable-area { width: 229.65px; height: 405.06px; left: 121.60px; top: 49.72px; }
 .cat-shirt.type-man-tank.view-back #printable-area { width: 180.83px; height: 382.45px; left: 167.72px; top: 66.31px; }
 .cat-shirt.type-man-sleevesless.view-back #printable-area { width: 207.95px; height: 421.33px; left: 148.28px; top: 35.26px; }
 .cat-shirt.type-man-v-neck.view-back #printable-area { width: 200.72px; height: 396.92px; left: 150.54px; top: 42.49px; }
 .cat-polo.type-regular.view-back #printable-area { width: 217.90px; height: 408.67px; left: 134.26px; top: 47.92px; }
 .cat-hoodies.type-nocord.view-back #printable-area { width: 235.08px; height: 316.45px; left: 121.60px; top: 131.68px; }
-.cat-cap.type-classic.view-back #printable-area { width: 117.5px; height: 58.5px; left: 190.5px; top: 216px; }
+.cat-cap.type-classic.view-back #printable-area { width: 370px; height: 240px; left: 65px; top: 120px; }
 
 /* template file*/
 .cat-shirt.type-man.view-front.color-black { background: url(../img/template/shirt-man/front/black.png); }
@@ -97,7 +97,7 @@
 .cat-shirt.type-woman.view-back.color-white { background: url(../img/template/shirt-woman/back/white.png); }
 .cat-shirt.type-woman.view-back.color-yellow { background: url(../img/template/shirt-woman/back/yellow.png); }
 
-.cat-shirt.type-man-long-sleeves.view-front.color-black { background: url(../img/template/shirt-man-longsleeves/front/black.png); } 
+.cat-shirt.type-man-long-sleeves.view-front.color-black { background: url(../img/template/shirt-man-longsleeves/front/black.png); }
 .cat-shirt.type-man-long-sleeves.view-front.color-green { background: url(../img/template/shirt-man-longsleeves/front/green.png); }
 .cat-shirt.type-man-long-sleeves.view-front.color-grey { background: url(../img/template/shirt-man-longsleeves/front/grey.png); }
 .cat-shirt.type-man-long-sleeves.view-front.color-light-blue { background: url(../img/template/shirt-man-longsleeves/front/light-blue.png); }
@@ -106,7 +106,7 @@
 .cat-shirt.type-man-long-sleeves.view-front.color-purple { background: url(../img/template/shirt-man-longsleeves/front/purple.png); }
 .cat-shirt.type-man-long-sleeves.view-front.color-red { background: url(../img/template/shirt-man-longsleeves/front/red.png); }
 .cat-shirt.type-man-long-sleeves.view-front.color-royal-blue { background: url(../img/template/shirt-man-longsleeves/front/royal-blue.png); }
-.cat-shirt.type-man-long-sleeves.view-front.color-white { background: url(../img/template/shirt-man-longsleeves/front/white.png); } 
+.cat-shirt.type-man-long-sleeves.view-front.color-white { background: url(../img/template/shirt-man-longsleeves/front/white.png); }
 .cat-shirt.type-man-long-sleeves.view-back.color-black { background: url(../img/template/shirt-man-longsleeves/back/black.png); }
 .cat-shirt.type-man-long-sleeves.view-back.color-green { background: url(../img/template/shirt-man-longsleeves/back/green.png); }
 .cat-shirt.type-man-long-sleeves.view-back.color-grey { background: url(../img/template/shirt-man-longsleeves/back/grey.png); }
@@ -222,7 +222,7 @@
 
 .cat-cap.type-classic.view-front.color-black { background: url(../img/template/cap/front/black.png); }
 .cat-cap.type-classic.view-front.color-brown { background: url(../img/template/cap/front/brown.png); }
-.cat-cap.type-classic.view-front.color-green { background: url(../img/template/cap/front/green.png); } 
+.cat-cap.type-classic.view-front.color-green { background: url(../img/template/cap/front/green.png); }
 .cat-cap.type-classic.view-front.color-light-blue { background: url(../img/template/cap/front/light-blue.png); }
 .cat-cap.type-classic.view-front.color-navy-blue { background: url(../img/template/cap/front/navy-blue.png); }
 .cat-cap.type-classic.view-front.color-pink { background: url(../img/template/cap/front/pink.png); }
@@ -251,7 +251,7 @@
 #template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.orange,
 #template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.pink,
 #template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.purple,
-#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.yellow, 
+#template.cat-shirt.type-man-sleevesless + #color-wheel #color-selection .color-box.yellow,
 #template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.brown,
 #template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.green,
 #template.cat-shirt.type-man-v-neck + #color-wheel #color-selection .color-box.light-blue,

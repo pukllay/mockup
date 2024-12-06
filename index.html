@@ -196,33 +196,53 @@
         <div id="mockup-tool" class="noselect">
           <fieldset>
             <legend>Plantilla:</legend>
+            <label for="category">Producto: </label>
             <div class="dropdown">
               <select id="category" name="category" autocomplete="off">
-                <option value="shirt" data-sublevel="variant-shirt">bolso blanco</option>
-                <option value="hoodies" data-sublevel="variant-hoodies">polo blanco</option>
-                <option value="polo" data-sublevel="variant-polo">poster</option>
-                <option value="cap" data-sublevel="variant-cap">taza blanca</option>
+                <option value="shirt" data-sublevel="variant-shirt">Polo</option>
+                <option value="hoodies" data-sublevel="variant-hoodies">Polera</option>
+                <option value="polo" data-sublevel="variant-polo">Camisa</option>
+                <option value="cap" data-sublevel="variant-cap">Gorra</option>
               </select>
             </div>
-            <label for="variant-polo" class="type">Type: </label>
+            <label for="variant-shirt" class="type default">Tipo: </label>
+            <div class="dropdown">
+              <select id="variant-shirt" autocomplete="off">
+                <optgroup label="Hombre">
+                  <option value="man">Regular</option>
+                  <option value="man-long-sleeves">Mangas largas</option>
+                  <option value="man-sleevesless">Mangas cero</option>
+                  <option value="man-tank">Bividí</option>
+                  <option value="man-v-neck">Cuello V</option>
+                </optgroup>
+                <optgroup label="Mujer">
+                  <option value="woman">Regular</option>
+                </optgroup>
+                <optgroup label="Niño">
+                  <option value="kid">Regular</option>
+                </optgroup>
+              </select>
+            </div>
+            <label for="variant-polo" class="type">Tipo: </label>
             <div class="dropdown">
               <select id="variant-polo" autocomplete="off">
                 <option value="regular">Regular</option>
               </select>
             </div>
-            <label for="variant-cap" class="type">Type: </label>
+            <label for="variant-cap" class="type">Tipo: </label>
             <div class="dropdown">
               <select id="variant-cap" autocomplete="off">
-                <option value="classic">Classic</option>
+                <option value="classic">Clasico</option>
               </select>
             </div>
-            <label for="variant-hoodies" class="type">Type: </label>
+            <label for="variant-hoodies" class="type">Tipo: </label>
             <div class="dropdown">
               <select id="variant-hoodies" autocomplete="off">
-                <option value="nocord">Without cord</option>
+                <option value="nocord">Sin cordón</option>
               </select>
             </div>
           </fieldset>
+
           <div id="template-box">
             <div id="template-box-overlay">
               <div class="loading">
@@ -234,7 +254,7 @@
               <ul>
                 <li id="center-both">
                   <i class="fa fa-arrows" aria-hidden="true"></i>
-                  <div class="description">Centrar</div>
+                  <div class="description">Centro</div>
                 </li>
                 <li id="center-v">
                   <i class="fa fa-arrows-v" aria-hidden="true"></i>
@@ -248,6 +268,9 @@
                   <div class="description">Borrador mágico</div>
                 </li>
               </ul>
+            </div>
+            <div id="front-back-switch">
+              <span class="noselect">Frente</span>
             </div>
             <div id="template" class="cat-shirt type-man view-front color-black" data-not-found="We don't have a template for&#xa;this set of color/apparel.&#xa;Try with another color.">
               <div id="printable-area" class="no-border">
@@ -272,9 +295,9 @@
               <div class="current-color-indicator"></div>
               <span class="noselect">Color</span>
               <div id="color-selection" class="noselect">
-                <div class="title">Choose a color:</div>
+                <div class="title">Elige un color:</div>
                 <ul>
-                  <li class="color-box black" data-color="black"><div class="description">Black</div></li>
+                  <li class="color-box black" data-color="black"><div class="description">Negro</div></li>
                   <li class="color-box brown" data-color="brown"><div class="description">Brown</div></li>
                   <li class="color-box green" data-color="green"><div class="description">Green</div></li>
                   <li class="color-box grey" data-color="grey"><div class="description">Grey</div></li>
@@ -295,12 +318,12 @@
             <div class="toggle-l">
               <input class="checkbox-toggle checkbox-toggle-skewed" id="showPrintArea" type="checkbox" autocomplete="off"/>
               <label class="checkbox-toggle-btn" for="showPrintArea" data-off="HIDE" data-on="SHOW"></label>
-              <span class="label">Área de impresión</span>
+              <span class="label">Printable Area</span>
             </div>
             <div class="toggle-r">
               <input class="checkbox-toggle checkbox-toggle-skewed" id="showMaxPrintArea" type="checkbox" autocomplete="off"/>
               <label class="checkbox-toggle-btn" for="showMaxPrintArea" data-off="SHOW" data-on="FORCE"></label>
-              <span class="label">Tamaño máximo</span>
+              <span class="label">Maximun Print Size</span>
             </div>
           </div>
         </div>
