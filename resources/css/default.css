@@ -403,7 +403,7 @@ font-size: 14px;
 
 #color-selection {
     width: 180px;
-    background: #2a3038;
+    background: #ffffff;
     border-radius: 2px;
     padding: 5px 10px 10px 10px;
     position: relative;
@@ -436,7 +436,8 @@ font-size: 14px;
     top: 35px;
     left: 50%;
     transform: translateX(-50%);
-    background: #0f1010;
+    background: #ebebeb;
+    color:#000;
     padding: 5px 10px;
     z-index: 2;
     height: 18px;
